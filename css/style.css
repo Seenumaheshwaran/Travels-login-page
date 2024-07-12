@@ -7,10 +7,9 @@ img{
     height: 700px;
 }
 form{
-    background: url(../assets/lilies-1850750_1280.jpg);
     height: 700px;
-    border: 1px solid ;
     padding: 100px;
+    background-color:#96C9F4;
 }
 label{
     display: block;
@@ -32,7 +31,7 @@ form h1,p{
 form p{
     font-style: italic;
     padding-top: 10px;
-    color: #EEEDEB;
+    color:whitesmoke;
 }
 .contain{
     display: block;
@@ -42,6 +41,9 @@ form p{
     margin: 10px 0px;
     margin-left: 160px;
     border: none;
+    background-color: #EEEEEE;
+    border-radius: 5px;
+    padding: 5px;
 }
 .contain p a{
     text-decoration: none;
@@ -59,5 +61,26 @@ form p{
 }
 form p a{
     text-decoration: none;
-    color:bisque;
+    color:black;
+}
+form p a:hover{
+    color: brown;
+}
+form button:hover{
+    background-color: #1679AB;
+    color: black;
+}
+img{
+    position: fixed;
+}
+.col-6,.head,.p1{
+    z-index: 1;
+    color: white;
+}
+.head,.p1{
+    text-align: center;
+}
+.head{
+    margin-top: 40px;
+    font-family: cursive;
 }
